@@ -46,6 +46,16 @@ A Pomodoro timer that runs in your macOS menu bar. Uses the Pomodoro Technique t
 - Audio notifications when sessions complete
 - Choose from 14 different system sounds
 
+## Screenshots
+
+### Settings Window
+
+![Settings window showing timer durations, session settings, sound settings, and keyboard shortcuts.](screenshots/settings.png)
+
+### Timer Window
+
+![Timer window showing focus session, timer countdown, progress bar, session counters, and control buttons.](screenshots/timer.png)
+
 ## Building the App
 
 ### Requirements

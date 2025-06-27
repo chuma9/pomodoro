@@ -25,6 +25,7 @@ A Pomodoro timer that runs in your macOS menu bar. Uses the Pomodoro Technique t
 
 - **⌘⇧Space**: Start/Pause timer
 - **⌘⇧R**: Reset current timer
+- **⌘⇧S**: Skip to next phase
 
 ### Interface
 
@@ -34,6 +35,7 @@ A Pomodoro timer that runs in your macOS menu bar. Uses the Pomodoro Technique t
 - Menu bar integration with live timer display
 
 ### Controls
+
 - **Start/Pause Button**: Begin or pause the current timer session
 - **Skip Button**: Jump to the next phase without waiting for the timer to complete
 - **Reset Button**: Reset the current timer to its full duration
@@ -79,6 +81,7 @@ After building, the app runs from Xcode or can be archived for distribution. The
 3. Use keyboard shortcuts for quick control:
    - ⌘⇧Space to start/pause
    - ⌘⇧R to reset
+   - ⌘⇧S to skip to next phase
 
 ### Settings
 
@@ -144,9 +147,10 @@ The app uses SwiftUI's styling system. Colors and fonts can be modified in the r
 ### Common Issues
 
 1. **App doesn't appear in menu bar**: Check that `INFOPLIST_KEY_LSUIElement` is set to `YES` in the project settings
-3. **Sounds not playing**: Check sound permissions in System Preferences
+2. **Sounds not playing**: Check sound permissions in System Preferences
 
 ### Permissions
 
 The app requires:
+
 - Sound permissions for session completion alerts

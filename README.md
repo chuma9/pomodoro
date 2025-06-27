@@ -2,6 +2,15 @@
 
 A Pomodoro timer that runs in your macOS menu bar. Uses the Pomodoro Technique to help manage focus sessions and breaks.
 
+## Screenshots
+
+<table>
+<tr>
+<td><strong>Timer Window</strong><br><img src="screenshots/timer.png" alt="Timer window showing focus session, timer countdown, progress bar, session counters, and control buttons." width="400"></td>
+<td><strong>Settings Window</strong><br><img src="screenshots/settings.png" alt="Settings window showing timer durations, session settings, sound settings, and keyboard shortcuts." width="400"></td>
+</tr>
+</table>
+
 ## Features
 
 ### Timer Functionality
@@ -12,48 +21,14 @@ A Pomodoro timer that runs in your macOS menu bar. Uses the Pomodoro Technique t
 - **Automatic Transitions**: Moves between focus and break periods
 - **Session Tracking**: Counts completed focus sessions and short breaks
 - **Daily Reset**: Resets session counters at midnight
-
-### Settings
-
-- Focus duration: 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 minutes
-- Short break duration: 1-10 minutes
-- Long break duration: 10, 15, 20, 25, 30 minutes
-- Sessions before long break: 2-6 sessions
-- Choose session completion sound
-
-### Keyboard Shortcuts
-
-- **⌘⇧Space**: Start/Pause timer
-- **⌘⇧R**: Reset current timer
-- **⌘⇧S**: Skip to next phase
-
-### Interface
-
-- Color-coded phases (Red for focus, Green for short breaks, Blue for long breaks)
-- Progress bar showing session completion
-- Session counters
-- Menu bar integration with live timer display
+- **Audio Notification**: Plays sound when sessions complete
 
 ### Controls
 
-- **Start/Pause Button**: Begin or pause the current timer session
-- **Skip Button**: Jump to the next phase without waiting for the timer to complete
-- **Reset Button**: Reset the current timer to its full duration
-- **Settings**: Customize timer durations and session counts
-
-### Notifications
-
-- Audio notifications when sessions complete
-- Choose from 14 different system sounds
-
-## Screenshots
-### Timer Window
-
-![Timer window showing focus session, timer countdown, progress bar, session counters, and control buttons.](screenshots/timer.png)
-
-### Settings Window
-
-![Settings window showing timer durations, session settings, sound settings, and keyboard shortcuts.](screenshots/settings.png)
+- **Start/Pause (⌘⇧Space)**: Begin or pause the current timer session
+- **Skip (⌘⇧S)**: Jump to the next phase without waiting for the timer to complete
+- **Reset (⌘⇧R)**: Reset the current timer to its full duration
+- **Settings**: Customize timer durations, session counts, and notification sound
 
 ## Building the App
 
@@ -87,10 +62,7 @@ After building, the app runs from Xcode or can be archived for distribution. The
 
 1. Click the menu bar icon to open the timer interface
 2. Click "Start" to begin a focus session
-3. Use keyboard shortcuts for quick control:
-   - ⌘⇧Space to start/pause
-   - ⌘⇧R to reset
-   - ⌘⇧S to skip to next phase
+3. Use keyboard shortcuts for quick control
 
 ### Settings
 
